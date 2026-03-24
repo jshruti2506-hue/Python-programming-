@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 24 13:32:06 2026
+
+@author: User
+"""
+
+word_count = 0
+with open('report.txt', 'r') as file:
+    for line in file: # Read line by line
+        words = line.split() # Split each line into words
+        word_count += len(words) # Update running total
+
+print(f"Total number of words: {word_count}")
