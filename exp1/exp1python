@@ -2,7 +2,7 @@
 """
 Created on Tue Feb  3 13:25:14 2026
 
-@author: User
+@author: Shruti Jadhav 
 """
 num1 = int(input("enter first number: "))
 num2 = int(input("enter second number: "))
