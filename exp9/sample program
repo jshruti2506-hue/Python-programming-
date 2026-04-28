@@ -1,0 +1,38 @@
+"""
+Created on Tue Apr 28 12:42:43 2026
+
+@author: shruti jadhav
+"""
+import math
+# Take input from the user
+num = float(input("Enter a number for square root and power calculation: "))
+power = float(input("Enter the exponent value: "))
+angle_deg = float(input("Enter an angle in degrees for trigonometric functions: "))
+# Square root
+sqrt_value = math.sqrt(num)
+print(f"Square root of {num} is {sqrt_value}")
+# Power
+power_value = math.pow(num, power)
+
+77
+
+print(f"{num} raised to the power {power} is {power_value}")
+# Convert angle to radians for trig functions
+angle_rad = math.radians(angle_deg)
+# Trigonometric functions
+sin_value = math.sin(angle_rad)
+cos_value = math.cos(angle_rad)
+tan_value = math.tan(angle_rad)
+print(f"Sin({angle_deg}°) = {sin_value}")
+print(f"Cos({angle_deg}°) = {cos_value}")
+print(f"Tan({angle_deg}°) = {tan_value}")
+
+output-
+Enter a number for square root and power calculation: 64
+Enter the exponent value: 81
+Enter an angle in degrees for trigonometric functions: 90
+Square root of 64.0 is 8.0
+64.0 raised to the power 81.0 is 1.997919072202235e+146
+Sin(90.0°) = 1.0
+Cos(90.0°) = 6.123233995736766e-17
+Tan(90.0°) = 1.633123935319537e+16
